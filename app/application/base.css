@@ -1,0 +1,22 @@
+
+html {
+  --line-color: #e5e7eb;
+  scroll-behavior: smooth;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
+}
+
+.borderBlack {
+  @apply border border-black/10;
+}
+
+@font-face {
+  font-family: "Mona Sans";
+  font-weight: 200 900;
+  font-display: block;
+  font-style: normal;
+  font-stretch: 75% 125%;
+  src: url("../fonts//Mona-Sans.var.woff2");
+}
