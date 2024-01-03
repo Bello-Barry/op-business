@@ -12,7 +12,7 @@ const Services = () => {
       <SectionIntro
         eyebrow="Services"
         title="Nous vous aidons à identifier, explorer et répondre à de nouvelles opportunités."
-        className="  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 "
+        className=" font-semibold  bg-gradient-to-r from-purple-500 to-cyan-500 "
       >
         <p >
           nous sommes à l’écoute de vos besoins et de vos attentes. Nous vous garantissons un travail de qualité, un respect des délais, et une satisfaction totale.
@@ -60,8 +60,8 @@ const Services = () => {
           
         />
       </div>
-     <div>
-          <p>
+     <div className="border-2  border-indigo-600 shadow-lg p-2 m-4 flex flex-col items-center justify-center ">
+          <p className="font-bold" >
              
 N’hésitez pas à nous contacter pour discuter de vos projets et obtenir un devis. Nous serons ravis de vous répondre et de vous accompagner.         </p>
     </div> 
