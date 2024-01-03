@@ -11,12 +11,11 @@ const Services = () => {
     <>
       <SectionIntro
         eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        title="Nous vous aidons à identifier, explorer et répondre à de nouvelles opportunités."
         className="  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 "
       >
         <p >
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          nous sommes à l’écoute de vos besoins et de vos attentes. Nous vous garantissons un travail de qualité, un respect des délais, et une satisfaction totale.
         </p>
       </SectionIntro>
       <Container className="mt-8">
@@ -29,42 +28,43 @@ const Services = () => {
       </h1>
       </div>
       
-      <div className="border-2 border-dotted border-indigo-600 shadow-lg p-2 m-4 ">
+      <div className="border-2  border-indigo-600 shadow-lg p-2 m-4 ">
         <ProjectCard
           src="/ORDINATEUR.jpeg"
           title= "Site web moderne"
-          description="We specialise in crafting beautiful, high quality marketing pages.
-            The rest of the website will be a shell that uses lorem ipsum
-            everywhere"
+          description="nous concevons et réalisons des sites web et des applications mobiles à la fois esthétiques, fonctionnels, et ergonomiques. Nous utilisons des frameworks performants et des langages de programmation modernes, tels que React, Next.js, Remix, Node.js, MongoDB, Firebase, etc."
             />
             </div>
-        <div className="border-2 border-dotted border-indigo-600 shadow-lg p-2 m-4 ">
+        <div className="border-2  border-indigo-600 shadow-lg p-2 m-4 ">
         <ProjectCard
           src="/OIG2.png"
           title= "Application mobile"
-          description=" We have a team of skilled developers who are experts in the latest
-          app frameworks like Angular 1 and Google Web Toolkit "
+          description=" Nous avons une équipe de développeurs qualifiés et experts dans les dernières des frameworks d'applications comme react-native zustend et firebase  "
           
         />
         </div>
-        <div className="border-2 border-dotted border-indigo-600 shadow-lg p-2 m-4 ">
+        <div className="border-2  border-indigo-600 shadow-lg p-2 m-4 ">
         <ProjectCard
           src="/MARKETING.jpeg"
-          title= "marketing digital"
-          description="C’est une agence immobilière en ligne qui possède des fonctionnalités très intéressantes, telles que la recherche rapide de biens immobiliers et la possibilité pour un particulier de publier des maisons à vendre ou à louer. Pour en savoir plus, vous pouvez visiter le site web de l’agence ."
+          title= "Formation et conseil"
+          description="nous vous formons et vous conseillons sur les aspects techniques et stratégiques du développement web et du marketing digital. Nous vous transmettons les connaissances et les compétences nécessaires pour gérer et faire évoluer vos projets numériques."
           
         />
         </div>
      
-      <div className="border-2 border-dotted border-indigo-600 shadow-lg p-2 m-4 ">
+      <div className="border-2  border-indigo-600 shadow-lg p-2 m-4 ">
       <ProjectCard
           src="/SEO.jpeg"
-          title= "marketing digital"
-          description="C’est une agence immobilière en ligne qui possède des fonctionnalités très intéressantes, telles que la recherche rapide de biens immobiliers et la possibilité pour un particulier de publier des maisons à vendre ou à louer. Pour en savoir plus, vous pouvez visiter le site web de l’agence ."
+          title= "Marketing et référencement"
+          description="nous vous aidons à optimiser la visibilité et le trafic de vos sites web et de vos applications mobiles. Nous mettons en place des stratégies de marketing digital efficaces, telles que le SEO, le SEA, le SMO, le content marketing, l’email marketing, etc. ."
           
         />
       </div>
-    
+     <div>
+          <p>
+             
+N’hésitez pas à nous contacter pour discuter de vos projets et obtenir un devis. Nous serons ravis de vous répondre et de vous accompagner.         </p>
+    </div> 
          
       </Container>
     </>
