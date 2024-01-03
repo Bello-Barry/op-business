@@ -29,7 +29,7 @@ module.exports = {
 				primary: "#BF83B3",
 				secondary: "#917145",
 				bgLight: "#f5f5f5",
-				bgDark: "#0f172a",
+				bgDark: "bg-gray-900",
 				textLight: "#eaeaea",
 				textDark: "#eaeaea",
 			},
