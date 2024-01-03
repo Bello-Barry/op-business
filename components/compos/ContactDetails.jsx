@@ -12,13 +12,12 @@ const ContactDetails = () => {
         Our offices
       </h2>
       <p className="mt-6 text-base text-neutral-600">
-        Prefer doing things in person? We don’t but we have to list our
-        addresses here for legal reasons.
+        Vous préférez faire les choses en personne ? Nous ne le faisons pas, mais nous devons lister nos adresses ici pour des raisons juridiques.
       </p>
       <Offices className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
       <Border className="mt-16 pt-16">
         <h2 className="font-display text-base font-semibold text-neutral-950">
-          Email us
+          Envoyez-nous un email
         </h2>
         <dl className="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
           {[
@@ -41,7 +40,7 @@ const ContactDetails = () => {
       </Border>
       <Border className="mt-16 pt-16">
         <h2 className="font-display text-base font-semibold text-neutral-950">
-          Follow us
+          Suivez-nous
         </h2>
         <SocialMedia className="mt-6" />
       </Border>
