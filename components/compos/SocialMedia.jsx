@@ -11,18 +11,18 @@ import {
 export const SocialMediaProfiles = [
   {
     title: "Youtube",
-    href: "https://www.youtube.com/@reactjsBD/",
+    href: "https://youtube.com/@vivre-du-net2505?si=v4jrw4ZlzoA7mh3n",
     icon: BsYoutube,
   },
-  { title: "GitHub", href: "https://github.com/noorjsdivs/", icon: BsGithub },
+  { title: "GitHub", href: "https://github.com/Bello-Barry", icon: BsGithub },
   {
     title: "Facebook",
-    href: "https://www.facebook.com/Noorlalu143/",
+    href: "https://www.facebook.com/Entrpreneuriat2.0?",
     icon: BsFacebook,
   },
   {
-    title: "Instagram",
-    href: "https://www.linkedin.com/in/noor-mohammad-ab2245193/",
+    title: "linkedin",
+    href: "https://www.linkedin.com/in/bello-barry-13838b106",
     icon: BsLinkedin,
   },
   { title: "Twitter", href: "https://twitter.com", icon: BsTwitter },
