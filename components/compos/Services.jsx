@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <>
       <SectionIntro
-        eyebrow="Services"
+        eyebrow="2b-sk"
         title="Nous vous aidons à identifier, explorer et répondre à de nouvelles opportunités."
         className=" font-semibold  bg-gradient-to-r from-purple-500 to-cyan-500 "
       >
@@ -18,7 +18,7 @@ const Services = () => {
           nous sommes à l’écoute de vos besoins et de vos attentes. Nous vous garantissons un travail de qualité, un respect des délais, et une satisfaction totale.
         </p>
       </SectionIntro>
-      <Container className="mt-8">
+      <Container className="mt-2">
       <div
       className="flex flex-col items-center justify-center py-10"
       id="projects"
@@ -60,11 +60,7 @@ const Services = () => {
           
         />
       </div>
-     <div className="border-2  border-indigo-600 shadow-lg p-2 m-4 flex flex-col items-center justify-center ">
-          <p className="font-bold" >
-             
-N’hésitez pas à nous contacter pour discuter de vos projets et obtenir un devis. Nous serons ravis de vous répondre et de vous accompagner.         </p>
-    </div> 
+   
          
       </Container>
     </>
