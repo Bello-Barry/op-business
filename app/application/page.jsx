@@ -15,9 +15,7 @@ export default function Homepage() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: "Phobia", logo: logoPhobiaDark }}
       >
-        The team at Studio went above and beyond with our onboarding, even
-        finding a way to access the user microphone without triggering one of
-        those annoying permission dialogs.
+        N’hésitez pas à nous contacter pour discuter de vos projets et obtenir un devis. Nous serons ravis de vous répondre et de vous accompagner.
         </Testimonials>
       
       <ContactSection />
