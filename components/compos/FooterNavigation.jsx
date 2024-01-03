@@ -10,12 +10,12 @@ const FooterNavigation = () => {
             <div className="font-display text-sm font-semibold tracking-wider text-slate-400">
               {item.title}
             </div>
-            <ul role="list" className="mt-4 text-sm text-neutral-700">
+            <ul role="list" className="mt-4 text-sm text-slate-400">
               {item.links.map((link) => (
                 <li key={link.title} className="mt-4">
                   <Link
                     href={link.href}
-                    className="text-inherit transition hover:text-neutral-950"
+                    className="text-slate-400 transition hover:text-neutral-950"
                   >
                     {link.title}
                   </Link>
