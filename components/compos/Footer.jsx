@@ -24,11 +24,11 @@ const NewsletterForm = () => {
       <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
         Sign up for our newsletter
       </h2>
-      <p className="mt-4 text-sm text-neutral-700">
+      <p className="mt-2 text-sm text-neutral-700">
         Subscribe to get the latest design news, articles, resources and
         inspiration.
       </p>
-      <div className="relative mt-6">
+      <div className="relative mt-2">
         <input
           type="email"
           placeholder="Email address"
@@ -52,15 +52,15 @@ const NewsletterForm = () => {
 
 const Footer = () => {
   return (
-    <Container as="footer" className="mt-14 w-full sm:mt-32 lg:mt-40">
+    <Container as="footer" className="mt-10 w-full sm:mt-15 lg:mt-20">
       <FadeI>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-5 lg:grid-cols-2">
           <FooterNavigation />
           <div className="flex lg:justify-end">
             <NewsletterForm />
           </div>
         </div>
-        <div className="mb-10 mt-14 flex flex-wrap items-end justify-between  gap-y-4 border-t border-neutral-950/10 pt-5">
+        <div className="mb-5 mt-10 flex flex-wrap items-end justify-between  gap-y-4 border-t border-neutral-950/10 pt-5">
           <Link href={"/"} aria-label="Home">
             <Logo className="h-2" fillOnHover>
               Op_business
