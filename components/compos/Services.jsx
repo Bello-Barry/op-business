@@ -27,29 +27,44 @@ const Services = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         Mes service
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      </div>
+      
+      <div className="border-2 border-dotted border-indigo-600 shadow-lg p-2 m-4 ">
         <ProjectCard
-          src="/gestion_des_clien.png"
-          title= "Web development"
+          src="/ORDINATEUR.jpeg"
+          title= "Site web moderne"
           description="We specialise in crafting beautiful, high quality marketing pages.
             The rest of the website will be a shell that uses lorem ipsum
             everywhere"
             />
+            </div>
+        <div className="border-2 border-dotted border-indigo-600 shadow-lg p-2 m-4 ">
         <ProjectCard
-          src="/ventes_des_articles_en_ligne.png"
-          title= "Application development"
+          src="/OIG2.png"
+          title= "Application mobile"
           description=" We have a team of skilled developers who are experts in the latest
           app frameworks like Angular 1 and Google Web Toolkit "
           
         />
+        </div>
+        <div className="border-2 border-dotted border-indigo-600 shadow-lg p-2 m-4 ">
         <ProjectCard
-          src="/Agence_immobilière_en_ligne.png"
+          src="/MARKETING.jpeg"
+          title= "marketing digital"
+          description="C’est une agence immobilière en ligne qui possède des fonctionnalités très intéressantes, telles que la recherche rapide de biens immobiliers et la possibilité pour un particulier de publier des maisons à vendre ou à louer. Pour en savoir plus, vous pouvez visiter le site web de l’agence ."
+          
+        />
+        </div>
+     
+      <div className="border-2 border-dotted border-indigo-600 shadow-lg p-2 m-4 ">
+      <ProjectCard
+          src="/SEO.jpeg"
           title= "marketing digital"
           description="C’est une agence immobilière en ligne qui possède des fonctionnalités très intéressantes, telles que la recherche rapide de biens immobiliers et la possibilité pour un particulier de publier des maisons à vendre ou à louer. Pour en savoir plus, vous pouvez visiter le site web de l’agence ."
           
         />
       </div>
-    </div>
+    
          
       </Container>
     </>
