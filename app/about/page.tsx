@@ -27,7 +27,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">N’hésitez pas à nous contacter pour discuter de vos projets et obtenir un devis gratuit. Nous serons ravis de vous répondre et de vous accompagner.
+        <span className="italic">N’hésitez pas à nous contacter pour discuter de vos projets et obtenir un devis gratuit. Nous serons ravis de vous répondre et de vous accompagner.</span>
       </p>
     </motion.section>
   );
