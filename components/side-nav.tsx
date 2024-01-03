@@ -56,7 +56,7 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
         <>
           <button
             onClick={toggleSubMenu}
-            className={`flex flex-row items-center p-2 rounded-lg hover-bg-gray-300 w-full justify-between hover:bg-gray-500 ${
+            className={`flex flex-row items-center p-2 bg-gray-900 rounded-lg hover-bg-gray-300 w-full justify-between hover:bg-gray-500 ${
               pathname.includes(item.path) ? 'bg-gray-500' : ''
             }`}
           >
