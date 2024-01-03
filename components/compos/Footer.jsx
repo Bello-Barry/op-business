@@ -24,17 +24,17 @@ const NewsletterForm = () => {
       <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
         Sign up for our newsletter
       </h2>
-      <p className="mt-2 text-sm text-neutral-700">
+      <p className="mt-1 text-sm text-neutral-700">
         Subscribe to get the latest design news, articles, resources and
         inspiration.
       </p>
-      <div className="relative mt-2">
+      <div className="relative mt-1">
         <input
           type="email"
           placeholder="Email address"
           autoComplete="email"
           aria-label="Email address"
-          className="block w-full rounded-2xl border border-neutral-300 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
+          className="block w-full rounded-2xl border border-neutral-300 bg-transparent py-2 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
         />
         <div className="absolute inset-y-1 right-1 flex justify-end">
           <button
@@ -52,7 +52,7 @@ const NewsletterForm = () => {
 
 const Footer = () => {
   return (
-    <Container as="footer" className="mt-10 w-full sm:mt-15 lg:mt-20">
+    <Container as="footer" className="mt-7 w-full sm:mt-15 lg:mt-20">
       <FadeI>
         <div className="grid grid-cols-1 gap-x-8 gap-y-5 lg:grid-cols-2">
           <FooterNavigation />
@@ -60,7 +60,7 @@ const Footer = () => {
             <NewsletterForm />
           </div>
         </div>
-        <div className="mb-5 mt-10 flex flex-wrap items-end justify-between  gap-y-4 border-t border-neutral-950/10 pt-5">
+        <div className="mb-5 mt-7 flex flex-wrap items-end justify-between  gap-y-4 border-t border-neutral-950/10 pt-5">
           <Link href={"/"} aria-label="Home">
             <Logo className="h-2" fillOnHover>
               Op_business
