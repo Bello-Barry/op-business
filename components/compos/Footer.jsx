@@ -21,12 +21,11 @@ const ArrowIcon = (props) => {
 const NewsletterForm = () => {
   return (
     <form className="max-w-sm">
-      <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
-        Sign up for our newsletter
+      <h2 className="font-display text-sm font-semibold tracking-wider text-slate-400">
+        Inscrivez-vous à notre newsletter
       </h2>
       <p className="mt-1 text-sm text-neutral-700">
-        Subscribe to get the latest design news, articles, resources and
-        inspiration.
+        Abonnez-vous pour recevoir les dernières nouvelles, articles, ressources et inspiration.
       </p>
       <div className="relative mt-1">
         <input
