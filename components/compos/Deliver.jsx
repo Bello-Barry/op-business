@@ -5,11 +5,11 @@ import List, { ListItem } from "./List";
 
 const Deliver = () => {
   return (
-    <Section title="Deliver" image={{ src: imageMeeting, shape: 1 }}>
+    <Section title="Livrer" image={{ src: imageMeeting, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{" "}
+          À peu près à mi-chemin de la phase de construction, nous poussons chaque projet de 6
+          semaines en raison d’un changement de{" "}
           <strong className="font-semibold text-neutral-950">
             requirements
           </strong>
