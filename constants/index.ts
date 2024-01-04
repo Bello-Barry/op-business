@@ -7,7 +7,7 @@ export const navigation = [
     links: [
       { title: "A-propos", href: "/about" },
       { title: "Process", href: "/process" },
-      { title: "Blog", href: "/blog" },
+      { title: "Blog", href: "https://opbusines.blogspot.com/?m=1"},
       { title: "Contact", href: "/contact" },
     ],
   },
