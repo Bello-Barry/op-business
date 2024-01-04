@@ -17,9 +17,9 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>A propos de nous</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
+        
         <span className="font-medium">OP&BUSINESS</span>, est une agence spécialisée dans la création de sites web modernes et d’applications mobiles{" "}
         <span className="font-medium">le marketing et le référencement. Nous vous accompagnons dans la conception, le développement, et la promotion de vos projets numériques.</span>.{" "}
        
