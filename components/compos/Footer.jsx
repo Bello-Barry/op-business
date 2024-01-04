@@ -59,7 +59,7 @@ const Footer = () => {
             <NewsletterForm />
           </div>
         </div>
-        <div className="mb-5 mt-7 flex flex-wrap items-end justify-between  gap-y-4 border-t border-neutral-950/10 pt-5">
+        <div className="mb-20 mt-24 flex flex-wrap items-end justify-between  gap-y-4 border-t border-neutral-950/10 pt-5">
           <Link href={"/"} aria-label="Home">
             <Logo className="h-2 mb-2 bt-4" fillOnHover>
               Op_business
