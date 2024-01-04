@@ -29,14 +29,14 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>Contactez-nous</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+        S’il vous plaît contactez-nous directement à{" "}
+        <a className="underline" href="mailto:obusiness715@gmail.com ">
+          obusiness715@gmail.com
         </a>{" "}
-        or through this form.
+        ou via ce formulaire.
       </p>
 
       <form
@@ -49,7 +49,7 @@ export default function Contact() {
             return;
           }
 
-          toast.success("Email sent successfully!");
+          toast.success("E-mail envoyé avec succès!");
         }}
       >
         <input
