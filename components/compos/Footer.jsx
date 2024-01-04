@@ -51,7 +51,7 @@ const NewsletterForm = () => {
 
 const Footer = () => {
   return (
-    <Container as="footer" className=" bg-gray-900 mt-24  mb-30 p-y-20 pb-8 bt-6 w-full sm:mt-35 lg:mt-30">
+    <Container as="footer" className=" bg-gray-900 mt-24 w-full sm:mt-32 lg:mt-40">
       <FadeI>
         <div className="grid grid-cols-1 gap-x-8 gap-y-5 lg:grid-cols-2">
           <FooterNavigation />
@@ -59,7 +59,7 @@ const Footer = () => {
             <NewsletterForm />
           </div>
         </div>
-        <div className="mb-20 mt-24 flex flex-wrap items-end justify-between  gap-y-4 border-t border-neutral-950/10 pt-5">
+        <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <Link href={"/"} aria-label="Home">
             <Logo className="h-2 mb-2 bt-4" fillOnHover>
               Op_business
