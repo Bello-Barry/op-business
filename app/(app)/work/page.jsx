@@ -5,13 +5,13 @@ const WorkPage = () => {
   return (
     <>
       <PageIntro
-        eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+        eyebrow="Notre travail"
+        title="Des solutions éprouvées pour des problèmes concrets."
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+          Nous croyons en l’efficacité et en la maximisation de nos ressources pour fournir le
+          meilleur rapport qualité-prix pour nos clients. La principale façon d’y parvenir est de réutiliser
+          Les cinq mêmes projets que nous développons depuis une dizaine d’années.
         </p>
       </PageIntro>
     </>
