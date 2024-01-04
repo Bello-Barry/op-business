@@ -5,7 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import {  BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
+import { FaFacebook } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 
 
@@ -93,14 +93,10 @@ export default function Intro() {
       >
         
 
-        <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
-          download
-        >
+       
           
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+          <FaFacebook className="opacity-60 group-hover:translate-y-1 transition" />
+        
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
