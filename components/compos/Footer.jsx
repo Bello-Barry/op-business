@@ -51,11 +51,7 @@ const NewsletterForm = () => {
 
 const Footer = () => {
   return (
-<<<<<<< HEAD
     <Container as="footer" className=" bg-gray-900 mt-24  mb-30 p-y-20 pb-8 bt-6 w-full sm:mt-35 lg:mt-30">
-=======
-    <Container as="footer" className=" bg-gray-900 mt-7 w-full h-full sm:mt-15 lg:mt-20">
->>>>>>> db8416e83b9dd7175fa353c5d041aa6e2435b3b6
       <FadeI>
         <div className="grid grid-cols-1 gap-x-8 gap-y-5 lg:grid-cols-2">
           <FooterNavigation />
