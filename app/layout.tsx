@@ -2,7 +2,7 @@ import Header from "@/components/header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
-import Footer from "@/components/footer";
+import Footer from "@/components/compos/Footer";
 
 
 import HeaderMobile from '@/components/header-mobile';
