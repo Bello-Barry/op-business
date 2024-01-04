@@ -32,7 +32,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Opportunités et business',
-  description: 'un site d'opportunités et de business marquer votre présence sur le Web grâce à Op&business',
+  description: 'un site dopportunités et de business marquer votre présence sur le Web grâce à Op&business',
 };
 
 export default function RootLayout({
