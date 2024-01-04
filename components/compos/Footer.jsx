@@ -51,7 +51,7 @@ const NewsletterForm = () => {
 
 const Footer = () => {
   return (
-    <Container as="footer" className=" bg-gray-900 mt-7 w-full sm:mt-15 lg:mt-20">
+    <Container as="footer" className=" bg-gray-900 mt-24  mb-30 p-y-20 pb-8 bt-6 w-full sm:mt-35 lg:mt-30">
       <FadeI>
         <div className="grid grid-cols-1 gap-x-8 gap-y-5 lg:grid-cols-2">
           <FooterNavigation />
@@ -61,11 +61,11 @@ const Footer = () => {
         </div>
         <div className="mb-5 mt-7 flex flex-wrap items-end justify-between  gap-y-4 border-t border-neutral-950/10 pt-5">
           <Link href={"/"} aria-label="Home">
-            <Logo className="h-2" fillOnHover>
+            <Logo className="h-2 mb-2 bt-4" fillOnHover>
               Op_business
             </Logo>
           </Link>
-          <p className="text-sm text-neutral-700">
+          <p className="text-sm text-neutral-700  ">
             © Op business Agency Inc. {new Date().getFullYear()}
           </p>
         </div>

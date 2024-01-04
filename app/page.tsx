@@ -28,12 +28,7 @@ export default function Home() {
 
 			</Appear>
 			
-			<FadeIn  delay={1} duration={2} x={2} y={3}>
 			
-				<h2 className='text-xl font-text'>
-					Avec <strong>TailwindCSS, Dark Mode, Framer Motion, Vercel Analytics, Google Tag Manager, et bien plus...</strong>
-				</h2>
-			</FadeIn>
 			<ZoomIn delay={3}  scale={7} duration={5} >
 				<p className='text-lg font-display'>
 					
@@ -57,8 +52,7 @@ export default function Home() {
       <div className="transform-translate-x-1/2">
 	  <Homepage />
 	  </div>
-			
-     
+	
     </main>
   );
 }

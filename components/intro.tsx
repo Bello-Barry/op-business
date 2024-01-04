@@ -77,7 +77,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
        <div className="text-center">
-      <h1 className={`text-4xl font-bold text-gray-900 ${isVisible ? 'slide-in-right' : 'invisible'}`}>
+      <h1 className="text-4xl font-bold text-gray-900 ">
         Bienvenue chez Op&business, votre partenaire pour réussir dans le monde numérique !
       </h1>
     </div>
@@ -98,7 +98,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
