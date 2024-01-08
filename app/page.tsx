@@ -21,7 +21,7 @@ export default function Home() {
            <div className="fixed z-50 h-9 w-9 rounded-full top-1 right-0 ">
 		     <span ><ThemeSwitcher/></span>
 		  </div>
-		  <div className="w-full bg-gradient-to-r border-2  border-indigo-600">
+		  <div className="w-full h-15 bg-gradient-to-r border-2  border-indigo-600">
 		  <Backgroung/>
 		  </div>
 		  
