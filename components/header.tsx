@@ -29,7 +29,7 @@ const Header = () => {
             href="/"
             className="flex flex-row space-x-3 items-center justify-center md:hidden"
           >
-                      <span className="h-7 w-7 bg-gray-500 rounded-lg">
+                      <span className="h-7 w-7 bg-white rounded-lg">
           <Image
               src="/Logo.png"
               alt="barry portrait"
