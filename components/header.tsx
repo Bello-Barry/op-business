@@ -28,7 +28,17 @@ const Header = () => {
             href="/"
             className="flex flex-row space-x-3 items-center justify-center md:hidden"
           >
-            <span className="h-7 w-7 bg-gray-900 rounded-lg" />
+                      <span className="h-7 w-7 bg-gray-500 rounded-lg">
+          <Image
+              src="/Logo.png"
+              alt="barry portrait"
+              width="15"
+              height="15"
+              quality="95"
+              priority={true}
+              className="h-7 w-7 rounded-full object-cover border-[0.35rem]  shadow-xl"
+            />
+            </span> 
             <span className="font-bold text-xl flex ">Op_business</span>
           </Link>
         </div>
