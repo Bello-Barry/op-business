@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import React from 'react';
 import ThemeSwitcher from "./ThemeSwitcher"
 import Link from 'next/link';
