@@ -1,73 +1,96 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import SectionHeading from "@/components/section-heading";
 import { motion } from "framer-motion";
-//import { useSectionInView } from "@/lib/hooks";
-import { sendEmail } from "@/actions/sendEmail";
-import SubmitBtn from "@/components/submit-btn";
 import toast from "react-hot-toast";
 
-export default function Contact() {
-  //const { ref } = useSectionInView("Contact");
+export default function Devis() {
+  const [formData, setFormData] = useState({
+    senderEmail: "",
+    projectDescription: "",
+    budget: "",
+    deadline: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    const jsonData = JSON.stringify(formData);
+    const whatsappNumber = "YOUR_WHATSAPP_NUMBER"; // Remplacez par votre numéro WhatsApp
+    const message = encodeURIComponent(jsonData);
+    
+    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
+
+    try {
+      window.open(whatsappLink, "_blank");
+      toast.success("Devis envoyé avec succès sur WhatsApp!");
+      setFormData({ senderEmail: "", projectDescription: "", budget: "", deadline: "" });
+    } catch (error) {
+      toast.error("Erreur lors de l'envoi du devis.");
+    }
+  };
 
   return (
     <motion.section
-      id="contact"
-      
+      id="devis"
       className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
-      initial={{
-        opacity: 0,
-      }}
-      whileInView={{
-        opacity: 1,
-      }}
-      transition={{
-        duration: 1,
-      }}
-      viewport={{
-        once: true,
-      }}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
     >
-      <SectionHeading>Contactez-nous</SectionHeading>
+      <SectionHeading>Demandez un Devis</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        S’il vous plaît contactez-nous directement à{" "}
-        <a className="underline" href="mailto:obusiness715@gmail.com ">
-          obusiness715@gmail.com
-        </a>{" "}
-        ou via ce formulaire.
+        Remplissez le formulaire ci-dessous pour recevoir un devis.
       </p>
 
-      <form
-        className="mt-10 flex flex-col dark:text-black"
-        action={async (formData) => {
-          const { data, error } = await sendEmail(formData);
-
-          if (error) {
-            toast.error(error);
-            return;
-          }
-
-          toast.success("E-mail envoyé avec succès!");
-        }}
-      >
+      <form className="mt-10 flex flex-col dark:text-black" onSubmit={handleSubmit}>
         <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="senderEmail"
           type="email"
           required
-          maxLength={500}
-          placeholder="Your email"
+          placeholder="Votre email"
+          value={formData.senderEmail}
+          onChange={handleChange}
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
-          name="message"
-          placeholder="Your message"
+          name="projectDescription"
+          placeholder="Description du projet"
           required
-          maxLength={5000}
+          value={formData.projectDescription}
+          onChange={handleChange}
         />
-        <SubmitBtn />
+        <input
+          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="budget"
+          type="text"
+          required
+          placeholder="Budget estimé"
+          value={formData.budget}
+          onChange={handleChange}
+        />
+        <input
+          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="deadline"
+          type="date"
+          required
+          value={formData.deadline}
+          onChange={handleChange}
+        />
+        <button 
+          type="submit" 
+          className="mt-4 h-14 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-all">
+            Envoyer le Devis
+        </button>
       </form>
     </motion.section>
   );
