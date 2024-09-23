@@ -22,7 +22,7 @@ export default function Devis() {
     e.preventDefault();
     
     const jsonData = JSON.stringify(formData);
-    const whatsappNumber = "YOUR_WHATSAPP_NUMBER"; // Remplacez par votre numéro WhatsApp
+    const whatsappNumber = +242065835337; // Remplacez par votre numéro WhatsApp
     const message = encodeURIComponent(jsonData);
     
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
