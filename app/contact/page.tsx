@@ -18,13 +18,13 @@ export default function Devis() {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
+
     const jsonData = JSON.stringify(formData);
-    const whatsappNumber = +242065835337; // Remplacez par votre numéro WhatsApp
-    const message = encodeURIComponent(jsonData);
-    
+    const whatsappNumber = "+242065835337"; // Numéro WhatsApp sans le "+" (utilisation d'une chaîne de caractères)
+    const message = encodeURIComponent(`Email: ${formData.senderEmail}\nProjet: ${formData.projectDescription}\nBudget: ${formData.budget}\nDate limite: ${formData.deadline}`);
+
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
 
     try {
