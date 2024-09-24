@@ -33,7 +33,9 @@ export default function RootLayout({
         <main className="min-h-screen px-4 md:px-20">{children}</main>
 
         {/* Footer */}
-        <Footer className="bg-[#1e1e2f] text-white py-4 mt-10" />
+        <div className="bg-[#1e1e2f] text-white py-4 mt-10">
+        <Footer  />
+          </div>
       </body>
     </html>
   );
