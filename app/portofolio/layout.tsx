@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./porto.css";
 import StarsCanvas from "@/components/main/StarsCanvas";
 import Navbar from "@/components/main/Navbar";
-import Footer from "@/components/footer";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,10 +32,7 @@ export default function RootLayout({
         {/* Main content */}
         <main className="min-h-screen px-4 md:px-20">{children}</main>
 
-        {/* Footer */}
-        <div className="bg-[#1e1e2f] text-white py-4 mt-10">
-        <Footer  />
-          </div>
+        
       </body>
     </html>
   );
