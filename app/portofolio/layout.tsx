@@ -26,8 +26,9 @@ export default function RootLayout({
         <StarsCanvas />
 
         {/* Navbar with a sticky effect for mobile */}
-        <Navbar className="sticky top-0 z-50 bg-opacity-90 backdrop-blur-md" />
-
+        <div className="sticky top-0 z-50 bg-opacity-90 backdrop-blur-md">
+  <Navbar />
+</div>
         {/* Main content */}
         <main className="min-h-screen px-4 md:px-20">{children}</main>
 
