@@ -12,7 +12,7 @@ import Homepage from "./application/page";
 import Intro from "@/components/intro";
 import FadeI from "@/components/compos/FadeI";
 import Services from "@/components/compos/Services";
-import Background from "@/components/background";
+//import Background from "@/components/background";
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
 
       {/* En-tête avec fond dégradé */}
       <div className="w-full h-20 bg-gradient-to-r border-b-2 border-indigo-600">
-        <Background />
+        
       </div>
 
       {/* Section d'introduction avec animation */}
